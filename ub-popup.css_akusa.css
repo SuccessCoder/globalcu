@@ -1,0 +1,127 @@
+@charset "windows-1252";
+
+.popupDiv { border-color: rgb(204, 204, 204); border-style: solid; border-radius: 15px; color: black; margin: 1em 0px 0px; display: none; padding-bottom: 18px; position: absolute; text-align: center; background: url("/efs/efs/grafx/akusa/nav/box/popup_bottom.png") left bottom no-repeat scroll; width: 700px; }
+
+:first-child + html .popupDiv { padding-bottom: 0px; }
+
+.popupTextArea { background-color: rgb(240, 240, 240); border-left: 2px none rgb(204, 204, 204); border-right: 2px none rgb(204, 204, 204); border-bottom: 0px none rgb(204, 204, 204); padding: 10px 2em; border-top-style: none; text-align: left; }
+
+.popupHeader { background: url("/efs/efs/grafx/akusa/nav/box/popup-title.gif") left top no-repeat scroll; color: white; font-size: 2em; line-height: 88px; margin: 0px 15px; padding: 0px; text-indent: 0.5em; text-shadow: rgb(85, 85, 85) 0px 2px 3px; }
+
+.popupOverlay { padding: 0px; margin: 0px; position: absolute; top: 0px; left: 0px; opacity: 0.45; background-color: rgb(207, 207, 207); z-index: 100; }
+
+#ubAgreementPopup.popupDiv { background: white; margin: 1em 0px 0px; }
+
+#ubAgreementText.popupTextArea { border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; border-top-left-radius: unset; border-top-right-radius: unset; background-color: white; padding-bottom: 20px; }
+
+#ubAgreementHeader.popupHeader { color: black; text-shadow: none; border-bottom: 2px solid rgb(204, 204, 204); background-image: none; text-indent: 0px; margin-left: 0px; margin-right: 0px; }
+
+#eStmtPopup.popupDiv { background-image: none; background-color: white; }
+
+#eStmtPopup .popupHeader { background: url("/efs/efs/grafx/akusa/estmtleaf.gif") left top no-repeat scroll white; color: black; text-shadow: rgb(170, 170, 170) 0px 2px 3px; }
+
+#eStmtPopup .popupTextArea { border-top-color: rgb(204, 204, 204); border-top-style: solid; background-color: white; }
+
+#eStmtPopup #askLater { margin-right: 2em; }
+
+#eStmtPopup li { margin-top: 1em; }
+
+#eStmtButtons { margin-top: 3em; }
+
+#viewSignPopup.popupDiv { background-image: none; background-color: white; }
+
+#viewSignPopup .popupHeader { background-image: none; background-color: white; color: black; text-shadow: rgb(170, 170, 170) 0px 2px 3px; }
+
+#viewSignPopup .popupTextArea { border-top-color: rgb(204, 204, 204); border-top-style: solid; background-color: white; }
+
+#viewSignPopup fieldset { text-align: left; width: 60%; display: inline-block; margin: 1em; }
+
+#eStmtOptInEmail { width: 80%; }
+
+#eStatementThankYouPopup.popupDiv { background-image: none; background-color: white; }
+
+#eStatementThankYouPopup .popupHeader { background-image: none; background-color: white; color: black; text-shadow: rgb(170, 170, 170) 0px 2px 3px; }
+
+#eStatementThankYouPopup .popupTextArea { border-top-color: rgb(204, 204, 204); border-top-style: solid; background-color: white; text-align: center; }
+
+.headline { text-align: center; }
+
+.disclosure { font-size: 80%; }
+
+#divPromoVisaAPR.popupDiv { background-image: none; background-color: white; }
+
+#divPromoVisaAPR .popupTextArea { background-color: white; margin-top: 10px; }
+
+#divPromoVisaAPR .headline { font-size: 120%; }
+
+#divPromoVisaAPR #buttonPromoVisaAPRApply { font-size: 140%; }
+
+#divPromoVisaAPR #buttonPromoVisaAPRNo { font-size: 70%; margin-bottom: 3em; line-height: 2em; }
+
+#divPromoVisaAPRButtons { margin-top: 2em; margin-bottom: 3em; }
+
+#divPromoB_SADs.popupDiv { background-image: none; background-color: white; }
+
+#divPromoB_SADs .popupTextArea { border-top-color: rgb(204, 204, 204); border-top-style: solid; background-color: white; text-align: center; }
+
+#divPromoB_SADs .buttonPromoB_SADsOk { margin-top: 1em; }
+
+#divPromoB_SADs a { margin-left: 5px; margin-right: 5px; }
+
+#divPromoB_SADs .popupHeader { background-image: none; background-color: white; color: black; text-shadow: rgb(170, 170, 170) 0px 2px 3px; }
+
+#divPromoIFrame.popupDiv { background-image: none; background-color: white; border-radius: 15px; border-style: solid; border-color: rgb(204, 204, 204); text-align: center; }
+
+#divPromoIFrame .popupHeader { background-image: none; background-color: white; color: black; text-shadow: rgb(170, 170, 170) 0px 2px 3px; }
+
+#divPromoIFrame .popupTextArea { border-top-color: rgb(204, 204, 204); border-top-style: solid; background-color: white; text-align: center; }
+
+#divMemberInfo.popupDiv { background-color: white; background-image: none; border-style: none; }
+
+#divMemberInfo .popupHeader { background: left top no-repeat scroll white; text-shadow: rgb(170, 170, 170) 0px 2px 3px; }
+
+#divMemberInfo .popupTextArea { background-color: white; font-weight: bold; }
+
+#divMemberInfo .header { color: red; font-size: large; }
+
+#divMemberInfo .column { float: left; }
+
+#divMemberInfo .left { font-weight: normal; font-size: small; width: 30%; }
+
+#divMemberInfo .right { border: 5px solid rgb(230, 231, 232); border-radius: 5px; float: right; padding-left: 10px; text-align: left; width: 60%; }
+
+#divMemberInfo input[type="button"] { font-size: 1.2em; color: white; background: rgb(0, 73, 144); border-radius: 3px; padding: 8px 10px; border-width: 0px; }
+
+#divMemberInfo input[type="button"].disabled { background: linear-gradient(rgb(221, 221, 221) 0%, rgb(170, 170, 170) 100%); }
+
+#divMemberInfo .general { font-weight: bold; text-align: left; }
+
+#divMemberInfo .itemMessage { color: rgb(0, 73, 144); font-size: small; font-weight: normal; text-align: left; }
+
+#divMemberInfo .name { color: rgb(0, 73, 144); font-size: large; font-weight: bold; }
+
+#divMemberInfo .updateMessage { font-size: small; }
+
+#divMemberInfo .scroll { max-height: 225px; overflow-y: scroll; border: 2px dotted black; padding: 0.5em; }
+
+#divMemberInfo .textbox { width: 300px; }
+
+#divMemberInfoButtons { text-align: center; }
+
+.memberInfoSpinner { display: none; background-color: rgb(255, 255, 255); position: absolute; text-align: center; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 650px; padding-top: 150px; padding-bottom: 150px; height: 200px; z-index: 1000; }
+
+#estatementTerms { display: none; padding: 0.5em 0em; font-weight: normal; }
+
+#eStatementTermsLegalContent { color: black; margin: 8px; font-weight: normal; }
+
+#eStatementTermsLegalContent div#eStatementTermsLegalContent_alaskausa { color: rgb(10, 56, 116); text-align: center; font-weight: bold; font-size: 1.3em; }
+
+#eStatementTermsLegalContent h3 { font-size: 1em; }
+
+h3.inline, h4.inline { display: inline; font-size: 1em; }
+
+#eStatementTermsLegalContent p { text-align: left; }
+
+#eStatementTermsLegalContent ol { padding-inline-start: 20px; }
+
+#eStatementsTermsLegalAgreementList li::marker { font-weight: bold; }

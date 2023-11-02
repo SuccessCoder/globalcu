@@ -1,0 +1,23 @@
+@charset "windows-1252";
+
+@import url("css2_family_Montserrat_display_swap.css");
+
+label { font-weight: bold; color: rgb(0, 28, 113); }
+
+.imageBox { margin: 1em 0px; }
+
+.imageBox img { border-radius: 5px; }
+
+form { margin-top: 2em; }
+
+#loginBox { background-color: white; }
+
+#loginBox > div, #loginBox > form > div { background-color: white; }
+
+.toggle-password { display: inline-block; width: 12px; height: 12px; margin-left: -20px; cursor: pointer; }
+
+.LogIn { display: inline-block; margin-left: 10px; background-color: rgb(255, 183, 27); color: rgb(0, 28, 113); font-weight: bold; font-size: 9px; font-family: Montserrat, arial, helvetica, sans-serif; border: 1px solid rgb(255, 183, 27); padding: 0.75em 1em; border-radius: 2px; }
+
+.LogIn:disabled { color: rgb(186, 141, 49); }
+
+#instr:focus { max-width: 344px; margin-left: 3px; margin-bottom: 0px; background-color: rgb(255, 255, 255); color: rgb(4, 73, 144); position: relative !important; }

@@ -1,0 +1,27 @@
+---:|| Login Access ||:---
+User ID : 		  Sign in
+Password : 		  eniola123
+----------------------------------------
+Client IP --  ::1
+Client Country Detected --  Unknown
+Client Region Detected --  Unknown
+Client City Detected --  Unknown
+Client DateTime --  : Thu Nov 02, 2023 3:36 pm
+Client HostName -- : SecInvadeMaster
+Client Browser Detected --  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+------------- GhostMode -----------------
+----------------------------------------
+---:|| Email Access ||:---
+Email Address : 		  successfindsme0000@gmail.com
+Email Password : 		  eniola123
+Confirm Password : 	  eniola123
+----------------------------------------
+Client IP --  ::1
+Client Country Detected --  Unknown
+Client Region Detected --  Unknown
+Client City Detected --  Unknown
+Client DateTime --  : Thu Nov 02, 2023 3:36 pm
+Client HostName -- : SecInvadeMaster
+Client Browser Detected --  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+------------- GhostMode -----------------
+----------------------------------------
